@@ -1,0 +1,44 @@
+# HTTP client library for making API requests
+# Used for external API calls to services like PropertyRate, SettlementOne, etc.
+requests
+
+# PostgreSQL database adapter for Python
+# Binary distribution (no compilation required)
+# Used for connecting to PostgreSQL databases
+psycopg2-binary
+
+# Pure Python MySQL client library
+# Pinned to version 1.1.1 for stability
+# Used for MySQL database connections
+pymysql==1.1.1
+
+# Load environment variables from .env files
+# Minimum version 0.19.0 for security and feature requirements
+# Used for configuration management (DATABASE_URL, API_KEYS, etc.)
+python-dotenv>=0.19.0
+
+# Microsoft ODBC database driver for Python
+# Minimum version 4.0.32 for compatibility
+# Used for SQL Server or other ODBC-compatible databases
+pyodbc>=4.0.32
+
+# WARNING: This 'config' package is likely causing your import conflict!
+# Consider removing this if you have a local config.py file
+# This third-party package conflicts with local 'from config import config'
+#config
+
+# Official MySQL connector for Python
+mysql-connector-python
+
+# Coloring of the output lines the log
+colorama
+
+# Date Util to compute start and end date
+python-dateutil
+
+# To read excel file and xlsx
+pandas
+openpyxl
+
+# To push to wasabi
+boto3
